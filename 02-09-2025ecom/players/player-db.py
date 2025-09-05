@@ -12,4 +12,5 @@ with open('player.json', 'w') as file:
 
 with open('player.json', 'r') as reader:
     players_from_json = json.load(reader)
-    print(players_from_json)
+    print(players_from_json) 
+    
